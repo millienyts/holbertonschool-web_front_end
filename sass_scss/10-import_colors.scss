@@ -1,0 +1,17 @@
+// 10-import_colors.scss
+
+// Importar el archivo de colores
+@import '10-colors';
+
+// Usar los colores importados
+.red {
+  color: $red;
+}
+
+.green {
+  color: $green;
+}
+
+.blue {
+  color: $blue;
+}

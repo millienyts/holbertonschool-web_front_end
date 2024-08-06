@@ -1,0 +1,8 @@
+// 12-loop_header.scss
+
+// Usar la declaración @for para crear reglas para h1 a h5
+@for $i from 1 through 5 {
+    h#{$i} {
+      font-size: #{$i}px;
+    }
+  }

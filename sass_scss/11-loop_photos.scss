@@ -1,0 +1,11 @@
+// 11-loop_photos.scss
+
+// Importar la lista de nombres
+@import '11-photos';
+
+// Usar la declaración @each para crear clases basadas en los nombres de la lista
+@each $name in $list-names {
+  .photo-#{$name} {
+    background: image-url("photos/#{$name}.jpg") no-repeat;
+  }
+}
