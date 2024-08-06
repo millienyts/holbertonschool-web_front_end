@@ -1,2 +1,4 @@
-/* Hello world with debug output */
-@debug 'Hello world'
+/* Debug mssg */
+$greeting: "Hello world";
+
+@debug $greeting;
