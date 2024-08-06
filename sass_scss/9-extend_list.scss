@@ -1,0 +1,18 @@
+// 9-extend_list.scss
+
+// Definir estilos para la clase .info
+.info {
+    font-size: 12px;
+  }
+  
+  // Extender los estilos de .info en .success y agregar estilos específicos
+  .success {
+    @extend .info;
+    color: #00FF00;
+  }
+  
+  // Extender los estilos de .info en .warning y agregar estilos específicos
+  .warning {
+    @extend .info;
+    color: #FF0000;
+  }

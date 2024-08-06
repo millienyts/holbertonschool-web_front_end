@@ -1,0 +1,17 @@
+// 8-mixin_margins.scss
+
+// Definir el mixin para márgenes
+@mixin margin-horizontal($left, $right) {
+    margin-left: $left;
+    margin-right: $right;
+  }
+  
+  // Aplicar el mixin al body
+  body {
+    @include margin-horizontal(10px, 10px);
+  }
+  
+  // Aplicar el mixin a los divs
+  div {
+    @include margin-horizontal(15px, 15px);
+  }

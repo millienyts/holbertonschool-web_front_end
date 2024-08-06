@@ -1,0 +1,13 @@
+// 7-nested_deeper.scss
+
+body {
+    font-size: 14px; // Tamaño de fuente para el body
+  
+    h1 {
+      font-size: 16px; // Tamaño de fuente para h1 dentro del body
+  
+      &.smaller {
+        font-size: 12px; // Tamaño de fuente para h1 con clase .smaller dentro del body
+      }
+    }
+  }

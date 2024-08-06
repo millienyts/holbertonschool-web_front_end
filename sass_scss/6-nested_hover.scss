@@ -1,0 +1,9 @@
+// 6-nested_hover.scss
+
+button {
+    color: #FF0000; // Color de texto cuando no se pasa el cursor
+  
+    &:hover {
+      color: #00FF00; // Color de texto cuando se pasa el cursor
+    }
+  }
